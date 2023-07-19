@@ -1,0 +1,38 @@
+.calc-sec {
+  background-color: #9F9FD4;
+  border-radius: 10px;
+}
+
+.result-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.calc-body{
+  display: flex;
+  flex-direction: row;
+}
+
+.list {
+  list-style: none;
+}
+
+.nums-list {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.num, .operator, .resetters { 
+  width: 70px;
+  height: 70px;
+  background-color:snow;
+}
+
+.equal {
+  width: 100%;
+  height: 30px;
+  background-color: snow;
+}
